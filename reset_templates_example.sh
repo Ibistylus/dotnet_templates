@@ -1,16 +1,16 @@
 dotnet new -u Ibistylus.Common.Templates
-dotnet build ~/dev/_templates/dotnet_templates/working
-dotnet pack ~/dev/_templates/dotnet_templates/working/
-dotnet new -i ~/dev/_templates/dotnet_templates/working/bin/Debug/Ibistylus.Common.Templates.1.0.0.nupkg
+dotnet build [path to working dir]
+dotnet pack [path to working dir] 
+dotnet new -i [path to compiled nupkg]
 
-rm -rf ~/dev/_templates/dotnet_templates/test
-mkdir ~/dev/_templates/dotnet_templates/test
+rm -rf [path to test folder] 
+mkdir [path to test folder] 
 
-cd test
-mkdir MyIbisCustomSolution
-cd MyIbisCustomSolution
-dotnet new IbisSolution
-cd src/MyIbisCustomSolution/
+cd [path to test folder] 
+mkdir [test project folder] 
+cd [test project folder] 
+dotnet new [creat dotnet project name] 
+cd [dot net project source] 
 dotnet build
 dotnet run
-cd ~/dev/_templates/dotnet_templates/
+cd [back to original folde] 
