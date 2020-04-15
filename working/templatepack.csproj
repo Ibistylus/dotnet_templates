@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageId>Ibistylus.Common.Templates</PackageId>
+    <Title>Ibistylus Templates</Title>
+    <Authors>Hesham Starkey</Authors>
+    <Description>Templates to use when creating Ibis Stylus applications.</Description>
+    <PackageTags>dotnet-new;templates</PackageTags>
+
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

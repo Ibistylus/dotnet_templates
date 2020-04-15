@@ -1,0 +1,22 @@
+{
+  "author": "Hesham Starkey",
+  "classifications": [
+    "Common",
+    "Solution"
+  ],
+  "name": "Standard solution layout",
+  "identity": "Ibistylus.StandardSolution",
+  "shortName": "IbisSolution",
+  "tags": {
+    "language": "C#"
+  },
+  "sourceName": "StandardSolution",
+  "preferNameDirectory": "true",
+  "symbols": {
+    "StandardSolutionReplace": {
+      "type": "parameter",
+      "defaultValue": "MyStandardSolution",
+      "replaces": "StandardSolution"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardSolution", "src\StandardSolution\StandardSolution.csproj", "{931A4637-ABFD-4BD4-8FFF-F79443D51F76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardSolution.Tests", "tests\StandardSolution.Tests\StandardSolution.Tests.csproj", "{6BA4A255-49C8-49F5-B923-1C71FB122E59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source Code", "Source Code", "{B64F0217-81A0-4541-A29E-0BC15C1CC219}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EF64761A-0604-438F-91D4-54DF10D92843}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1AAB5649-209B-42D2-AEB5-FDDECEC3CABE}"
+ProjectSection(SolutionItems) = preProject
+	build.cmd = build.cmd
+	build.sh = build.sh
+	LICENSE = LICENSE
+	NuGet.Config = NuGet.Config
+	README.md = README.md
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{931A4637-ABFD-4BD4-8FFF-F79443D51F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931A4637-ABFD-4BD4-8FFF-F79443D51F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931A4637-ABFD-4BD4-8FFF-F79443D51F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931A4637-ABFD-4BD4-8FFF-F79443D51F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA4A255-49C8-49F5-B923-1C71FB122E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA4A255-49C8-49F5-B923-1C71FB122E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA4A255-49C8-49F5-B923-1C71FB122E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA4A255-49C8-49F5-B923-1C71FB122E59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{931A4637-ABFD-4BD4-8FFF-F79443D51F76} = {B64F0217-81A0-4541-A29E-0BC15C1CC219}
+		{6BA4A255-49C8-49F5-B923-1C71FB122E59} = {EF64761A-0604-438F-91D4-54DF10D92843}
+	EndGlobalSection
+EndGlobal

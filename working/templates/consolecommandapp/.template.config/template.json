@@ -1,0 +1,23 @@
+{
+  "author": "Hesham Starkey",
+  "classifications": [
+    "Common",
+	"Console",
+    "Solution"
+  ],
+  "name": "Standard console solution layout",
+  "identity": "Ibistylus.StandardConsoleSolution",
+  "shortName": "IbisConsoleSolution",
+  "tags": {
+    "language": "C#"
+  },
+  "sourceName": "StandardConsoleSolution",
+  "preferNameDirectory": "true",
+  "symbols": {
+    "StandardSolutionReplace": {
+      "type": "parameter",
+      "defaultValue": "MyStandardConsoleSolution",
+      "replaces": "StandardConsoleSolution"
+    }
+  }
+}
